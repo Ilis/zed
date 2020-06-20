@@ -19,3 +19,6 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("И объединять переменные с числами")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+print("И как Вика попросила")
+cheese_and_crackers(input("Сырков: "), input("Чипсов: "))
