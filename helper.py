@@ -4,4 +4,4 @@ def words_order(text: str, words: list) -> bool:
 
 if __name__ == '__main__':
     print("Example:")
-    print(words_order('hi hi hi here', ['hi', 'here']))
+    print(words_order('hi hi hi hi here', ['hi', 'here']))
