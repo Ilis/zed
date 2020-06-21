@@ -5,6 +5,7 @@ script, input_file = argv
 
 
 def print_all(f):
+    print(f">>> print_all: {f = }")
     print(f.read())
 
 
@@ -28,8 +29,8 @@ print("Выведем три строки:")
 current_line = 1
 print_a_line(current_line, current_file)
 
-current_line += 1
+current_line += 2
 print_a_line(current_line, current_file)
 
-current_line += 1
+current_line += 3
 print_a_line(current_line, current_file)
