@@ -30,5 +30,8 @@ print(f"{age = }; {height = }; {weight = }; {iq = }")
 print("This is a puzzle")
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+wttt = age + (height - (weight * iq / 2))
 
 print("Result is", what, "really?")
+print(f"{what = }")
+print(f"{wttt = }")
