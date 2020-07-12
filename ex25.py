@@ -1,3 +1,6 @@
+"""Functions to do words stuff"""
+
+
 def break_words(stuff):
     """Break sentense into words"""
     words = stuff.split(" ")
