@@ -10,7 +10,13 @@ lesson_3 = False
 
 def lesson_math():
     """Кабинет математики"""
-    ...
+    global lesson_1
+    if lesson_1:
+        print("Тут уже никого нет!")
+        return
+
+    print("Урок окончен!")
+    lesson_1 = True
 
 
 def canteen():
@@ -48,7 +54,7 @@ def hallway():
               "классы и другие помещения.")
         print("Смотреть расписание")
         print("Пойти в столовую")
-        print("Пойти н спортзал")
+        print("Пойти в спортзал")
         print("Пойти на математику")
         print("Пойти на информатику")
 
